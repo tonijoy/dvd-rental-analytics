@@ -1,0 +1,70 @@
+version: 2
+sources:
+- name: dvd_rental
+  database: dvdrental
+  schema: public
+  tables:
+  - name: customer
+    description: This table has basic information about a customer
+    columns:
+    - name: customer_id
+      description: This is a unique identifier for a customer
+
+  - name: rental
+    description: This table has basic information about rental
+    columns:
+    - name: rental_id
+      description: This is a unique identifier for a rental
+
+  - name: address
+    description: This table has basic information about a customer's address
+    columns:
+    - name: address_id
+      description: This is a unique identifier for a customer's address
+
+  - name: city
+    description: This table has basic information about a customer's city
+    columns:
+    - name: city_id
+      description: This is a unique identifier for a customer's city
+
+  - name: country
+    description: This table has basic information about a customer's country
+    columns:
+    - name: country_id
+      description: This is a unique identifier for a customer's country
+
+  - name: inventory
+    description: This table has basic information about the inventory of the store
+    columns:
+    - name: inventory_id
+      description: This is a unique identifier for the store inventory
+
+  - name: payment
+    description: This table has basic information about payments made by customers
+    columns:
+    - name: payment_id
+      description: This is a unique identifier for a customer's payment
+
+  - name: film
+    description: This table has basic information about films rented by customers
+    columns:
+    - name: film_id
+      description: This is a unique identifier for a film
+
+  - name: category
+    description: This table has basic information about categories of films
+    columns:
+    - name: category_id
+      description: This is a unique identifier for a category
+
+  - name: film_category
+    description: This table has basic information about categories of films
+    columns:
+    - name: category_id
+      description: This is a unique identifier for a category
+  
+  
+  
+  
+    
